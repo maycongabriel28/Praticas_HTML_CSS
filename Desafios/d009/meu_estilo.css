@@ -1,0 +1,16 @@
+@charset "UTF-8"; /* Regra para tornar página CSS sensível a acetuações */
+
+body { 
+    background-color: black; /* Coloca cor de fundo preto */
+    font-family: Arial, Helvetica, sans-serif; /* Formato de letra Arial */
+    font-size: 20px; /* Tamanho da letras */
+}
+
+h1 {
+    color: white; /* Coloca título H1 branco */
+    text-align: center; /* Centraliza o título */
+}
+
+p {
+    text-align: center; /* Centraliza o paragrafo */  
+}

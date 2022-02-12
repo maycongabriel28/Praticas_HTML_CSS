@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="carinha_feliz.ico" type="image/x-icon">
+    <title>Pseudo-Classes</title>
+    <style>
+        div {
+            display: inline-block; /* Coloca um elemento (<div>) do lado do outro */
+            background-color: lightgray;
+            border: 1px solid black; /* Adicionar borda no elemento */
+            text-align: center; /* Centraliza os elementos  */
+            height: 200px; /* Altura */
+            width: 200px; /* Largura */
+        }
+
+        div:hover { /* Pseudo-classe usada para definir um estado de transição, neste caso ao passar o mouse muda a cor do fundo */
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div> <!-- Tag (<div>) usada para reservar espaço na tela do navegador -->
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+</body>
+</html>

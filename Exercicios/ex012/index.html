@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="carinha_feliz.ico" type="image/x-icon">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <hr> <!-- Coloca Linha Horizontal na página do site -->
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <video width="560" height="315" poster="imagem/chuva.jpg" controls autoplay loop> <!-- TAG usada para adicionar vídeo no seu site -->
+        <!-- Os navegadores aceitos MP4, M4V, Webm e ogv, logo tem incluir todos os formatos para não ter problema na hora de reproduzir o vídeo no seu navegador -->
+        <source src="midia/meu video_MP4.mp4" type="video/mp4"> <!-- Formato vídeo MP4 -->
+        <source src="midia/meu video_M4V.m4v" type="video/mp4"> <!-- Formato vídeo M4V -->
+        <source src="midia/meu video_WEBM.webm" type="video/webm"> <!-- Formato vídeo webm -->
+
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p> <!-- Se caso o seu navegador não for compativel com nenhum formato de vídeo -->
+    </video>
+
+    <h1>Inserindo vídeos do Youtube</h1>
+    <hr>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeo com o vímeo</h1>
+    <hr>
+    <iframe src="https://player.vimeo.com/video/197093965?h=7fbc516b5a&color=ff0179&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

@@ -1,0 +1,32 @@
+@charset "UTF-8"; /* Configurações para caractheres especiais no arquivo CSS */
+
+* { /* Configurações globais */
+    font-family: Arial, Helvetica, sans-serif; /* Define o tipo da letra usada na página */
+}
+
+body { /* Adiciona gradiente no corpo da página */
+    background-image: linear-gradient(270deg, #378DAA, #8FBABF); /* Adiciona gradiente no corpo da página */
+}
+
+main { /* Adiciona estilo na tag main, onde o conteúdo esta inserido */
+    background-color: white; /* Coloca fundo do conteúdo branco */
+    border-radius: 10px; /* Arredonda bordas */
+    box-shadow: 5px 5px 15px #1c556d57; /* adiciona sombras nas laterais */
+    width: 600px; /* configura largura */
+    padding: 10px; /* configura distancia das margens para as letras */
+    margin: auto; /* Centraliza conteúdo no centro da tela de forma automatica */
+}
+
+h1 { /* Adiciona estilo no titulo h1 */
+    color: #378DAA; /* Adiciona cor no titulo */
+    text-align: center; /* Centraliza titulo */
+    text-shadow: 1px 1px 3px #15455a; /* adicona sombra ao titulo */
+}
+
+h2 { /* Adiciona estilo no sub título h2 */
+    color: #031240; /* Adiciona cor ao sub título h2 */
+}
+
+p { /* Adiciona estilo nos textos dos paragrafos */
+    text-align: justify; /* Faz o alinhamento de todos os paragrafos */
+}
