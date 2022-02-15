@@ -29,6 +29,18 @@
         a:active { /* Ao clicar em texto de link executa alguma ação */
             color: yellow; /* Coloca texto em amarelo */
         }
+
+        .especial { /* Defini link como sendo 'especial' ou seja ele deve ser destacado*/
+            background-color: rgb(188, 188, 219); /* Altera cor de fundo do texto */
+        }
+
+        .especial::before { /* Adiciona elementos antes do texto do link */
+            content:'[link]' ; /* Adiciona elementos */
+        }
+
+        .especial::after { /* adiciona elementos depois do texto do link */
+            content: '[link]'; /* Adiciona elementos */
+        }
     </style>
 
 </head>
@@ -36,7 +48,7 @@
     <h1>Personalizando Links</h1> <!-- Título -->
     <ul> <!-- Lista -->
         <li><a href="https://gustavoguanabara.github.io">Repositório Github curso Guanabara</a></li> <!-- Identificador de lista -->
-        <li><a href="https://youtube.com/cursoemvideo/">Canal do youtube curso em vídeo</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" class="especial">Canal do youtube curso em vídeo</a></li>
 
     </ul>
 </body>
